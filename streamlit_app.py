@@ -3,7 +3,7 @@ import streamlit as st
 import json
 from openai import OpenAI  # Import OpenAI package
 
-# Load prompt database from JSON file
+# Load prompt database from JSON files
 with open("attributes.json", "r", encoding="utf-8") as f:
     therapist = json.load(f)
 
